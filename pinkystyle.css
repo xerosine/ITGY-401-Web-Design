@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+    font-size: 16px;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    background-color: green;
+    color: purple;
+    margin: 10px;
+}
+li::marker {
+    color: rgb(175, 175, 33);
+}
+li q {
+    font-style: italic;
+}
